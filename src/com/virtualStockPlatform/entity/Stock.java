@@ -9,8 +9,6 @@ public class Stock {
 	
 	private int number;
 	
-	private double totalProperty;
-	
 	public Stock() {}
 
 	public double getSinglePrice() {
@@ -19,14 +17,6 @@ public class Stock {
 
 	public void setSinglePrice(double singlePrice) {
 		this.singlePrice = singlePrice;
-	}
-
-	public double getTotalProperty() {
-		return totalProperty;
-	}
-
-	public void setTotalProperty(double totalProperty) {
-		this.totalProperty = totalProperty;
 	}
 
 	public int getStock_Id() {
@@ -64,6 +54,6 @@ public class Stock {
 	@Override
 	public String toString() {
 		return "Stock [stock_Id=" + stock_Id + ", name=" + name + ", singlePrice=" + singlePrice + ", number=" + number
-				+ ", totalProperty=" + totalProperty + "]";
+				+ "]";
 	};
 }
